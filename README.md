@@ -1,1 +1,8 @@
 # Breast-Cancer-Analysis-Using-Machine-learning
+## Introduction
+Breast cancer is one of the most common cancers in the world which is characterized by the proliferation of abnormal breast cells called tumor. This cancer mostly affects women with 0.5–1% of cases occurring in men, as reported by the World Health Organization (WHO) in 2023. To enhance early detection and treatment, unsupervised machine learning techniques and algorithms have gained considerable attention within the healthcare sector.  The unsupervised learning technique was done using K-means clustering, Agglomerative clustering, and dBSCAN.
+This study applies K-Means clustering, Agglomerative clustering, and DBSCAN to analyze the grouping patterns of cell nuclei, offering insights into the classification of nuclei as either malignant or benign.
+However, Decision Tree Classifier, Logistic Regression, SVC, and  Random Forest Classifier were the supervised machine learning technique used to classify cells as either malignant or benign which aids in breast cancer diagnosis.
+
+## Description of the dataset
+The dataset is composed of thirty-two different columns. The target variable, diagnosis, indicates whether the tumour is malignant (M) or benign (B). Another column, id, gives a unique identifier for each sample. The remaining thirty columns are the features, each pertaining to a particular physical attribute of the cell nuclei visualised in the medical image from each observation. There are ten unique measurements, and for each of these the mean, standard error, and ‘worst’ (the average of the three largest values in each observation) are given, resulting in the thirty feature columns.
